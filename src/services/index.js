@@ -4,4 +4,4 @@ import mock from './mock';
 
 export default createServices({
   login: 'POST /login',
-}, process.env.NODE_ENV !== '' ? mock : null);
+}, process.env.NODE_ENV !== 'production' ? mock : null);
