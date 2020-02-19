@@ -81,6 +81,7 @@
   },
   "dependencies": {
     "nuomi": "^0.8.1",
+    "nuomi-request": "^0.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
