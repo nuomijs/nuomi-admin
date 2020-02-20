@@ -6,7 +6,7 @@ export default {
   state: {},
   effects,
   render() {
-    return <Layout />;
+    return <Layout routes={this.children} />;
   },
   onInit() {},
 };

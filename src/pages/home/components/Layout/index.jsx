@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Layout = () => {
-  return <></>;
+  return <>22</>;
 };
 
 export default Layout;
