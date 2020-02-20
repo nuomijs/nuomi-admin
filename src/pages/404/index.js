@@ -1,12 +1,9 @@
 import React from 'react';
 import Layout from './components/Layout';
-import effects from './effects';
 
 export default {
-  state: {},
-  effects,
+  id: '404',
   render() {
     return <Layout />;
   },
-  onInit() {},
 };

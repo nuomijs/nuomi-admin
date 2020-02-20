@@ -1,5 +1,6 @@
 import login from './login';
 import layout from './layout';
+import _404 from './404';
 
 export default [{
   path: '/',
@@ -13,9 +14,9 @@ export default [{
     async: () => import('./home'),
   }, {
     path: '*',
-    children: '404',
+    ..._404,
   }],
 }, {
   path: '*',
-  children: '404',
+  ..._404,
 }];

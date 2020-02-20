@@ -7,7 +7,9 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
   ],
   plugins: ['prettier'],
-  rules: {},
+  rules: {
+    'react/prop-types': 0,
+  },
   globals: {},
   env: {
     es6: true,
