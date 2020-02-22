@@ -4,7 +4,7 @@ import { useConnect, router } from 'nuomi';
 import style from './style.less';
 
 const Header = () => {
-  const [{ collapsed }, dispatch] = useConnect();
+  const [{ collapsed, user }, dispatch] = useConnect();
 
   const toggle = () => {
     dispatch({
@@ -36,7 +36,10 @@ const Header = () => {
               </Menu>
             )}
             placement="bottomCenter">
-            <Avatar icon="user" />
+              <span>
+                hello, {user.username}
+                <Avatar icon="user" style={{ marginLeft: 8 }} />
+              </span>
           </Dropdown>
         </Col>
       </Row>

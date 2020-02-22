@@ -2,7 +2,7 @@ import services from '../../../services';
 
 export default {
   async $getUser() {
-    const { data: { data: user } } = await services.getUser();
+    const { data: { data: user } } = await services.getUser({}, { delay: 1000 });
     this.dispatch({
       type: 'updateState',
       payload: {

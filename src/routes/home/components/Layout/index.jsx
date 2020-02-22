@@ -1,7 +1,10 @@
 import React from 'react';
+import { Content } from '../../../../components';
 
 const Layout = () => {
-  return <>22</>;
+  return (
+    <Content>首页</Content>
+  );
 };
 
 export default Layout;
