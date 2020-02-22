@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Layout = () => {
-  return <div>404</div>;
+  return <></>;
 };
 
 export default Layout;

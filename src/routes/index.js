@@ -6,12 +6,17 @@ export default [{
   path: '/',
   ...login,
 }, {
-  path: '/platform/*',
-  route: false,
+  path: '/platform',
   ...layout,
   children: [{
     path: '/',
     async: () => import('./home'),
+  }, {
+    path: '/list',
+    async: () => import('./list'),
+  }, {
+    path: '/setting',
+    async: () => import('./setting'),
   }, {
     path: '*',
     ..._404,
