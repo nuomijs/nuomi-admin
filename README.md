@@ -14,7 +14,7 @@ yarn start
 ```
 config   webpack配置
 docs     项目文档
-mocks    模拟数据
+mocks    模拟请求
 public   静态资源
 scripts  构建脚本
 src      项目源码
