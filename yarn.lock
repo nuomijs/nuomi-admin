@@ -8279,10 +8279,10 @@ nuomi-request@^0.2.3:
     qs "^6.9.1"
     typescript "^3.7.5"
 
-nuomi@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/nuomi/-/nuomi-0.8.3.tgz#93062a498704ee59117a69392fbddb048025d55b"
-  integrity sha512-dbKSbzgSdeIO22eK/B38+m74O/TZiJ6gBeVDlNVvAfkFf33LLKL8R1unBMlJlqxvlMRRp7Vvelhwn1cON1bouQ==
+nuomi@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/nuomi/-/nuomi-0.8.4.tgz#e4d19f2c4039f79ce4e60b3411beecdf77539b52"
+  integrity sha512-bwi/kyoqVENxCzftEuDKE7AmFuMA6XUgu0BZK5E/uaU2cnEpz0A4haKNZ51vpZknysdgua7VWRzWGJbhQA347w==
   dependencies:
     invariant "^2.2.4"
     prop-types "^15.7.2"
