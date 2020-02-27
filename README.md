@@ -1,5 +1,5 @@
 ## 介绍
-nuomi-admin是基于nuomi+antd开发的一个简单的管理系统案例
+`nuomi-admin` 是基于 `nuomi` + `antd` 开发的一个简单的管理系统案例，可以方便对 `nuomi` 框架的使用和学习。
 
 ## 使用
 ```
