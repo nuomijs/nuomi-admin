@@ -8270,19 +8270,19 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuomi-request@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/nuomi-request/-/nuomi-request-0.2.3.tgz#3346658322339c51221c052199b79a15450005cd"
-  integrity sha512-m3eZTe5QrLG0t5Qpm2GJc1cYWEVmqzwOfh3rupBmtv0OQDCyBSlUIxL+1JEDnNqbfUL0MyXGMbK0BynAZvY/Bw==
+nuomi-request@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/nuomi-request/-/nuomi-request-0.2.5.tgz#cf9c92c5741608a4f9058968f439e5c817c76144"
+  integrity sha512-Bh32J4QEagvVc7+shACfaYSJQldvBD5klENUBm6gGSsm/Ch5fRahv/l1UM+I/TZlMuJ3bCUnV7tI5ojqgZbvJg==
   dependencies:
     axios "^0.19.0"
     qs "^6.9.1"
     typescript "^3.7.5"
 
-nuomi@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/nuomi/-/nuomi-0.8.4.tgz#e4d19f2c4039f79ce4e60b3411beecdf77539b52"
-  integrity sha512-bwi/kyoqVENxCzftEuDKE7AmFuMA6XUgu0BZK5E/uaU2cnEpz0A4haKNZ51vpZknysdgua7VWRzWGJbhQA347w==
+nuomi@^0.8.5:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/nuomi/-/nuomi-0.8.5.tgz#d8f48dcb31dcf7ca45866cf6b8b2369b1067c862"
+  integrity sha512-ofe7pVUvR86iWQqkkLWT7gdSgG5BxZlrFwWP5Qp6GBFmGRSDebGqJVvlLrRp3VvsFFGnwPgl61gdq4OTBvwE1g==
   dependencies:
     invariant "^2.2.4"
     prop-types "^15.7.2"
