@@ -8270,10 +8270,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuomi-request@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/nuomi-request/-/nuomi-request-0.2.5.tgz#cf9c92c5741608a4f9058968f439e5c817c76144"
-  integrity sha512-Bh32J4QEagvVc7+shACfaYSJQldvBD5klENUBm6gGSsm/Ch5fRahv/l1UM+I/TZlMuJ3bCUnV7tI5ojqgZbvJg==
+nuomi-request@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/nuomi-request/-/nuomi-request-0.2.6.tgz#21db251a5fea32a4ea4296160ec4b3ba9ee21056"
+  integrity sha512-QH2LX5WSzNSWrMdIToOzZ5sHguT2OgGnUIzlgsqDl8dNCwaHEuil/5HCxcuzT8SUmygx10R39b0Xio1Z89F8zA==
   dependencies:
     axios "^0.19.0"
     qs "^6.9.1"
