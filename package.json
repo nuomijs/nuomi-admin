@@ -103,9 +103,9 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
-    "antd": "^3.26.11",
+    "antd": "^4.0.4",
     "core-js": "^3.6.4",
-    "nuomi": "^0.8.8",
+    "nuomi": "^0.8.10",
     "nuomi-request": "^0.2.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
