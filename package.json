@@ -7,7 +7,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "docs": "vuepress dev ./docs"
+    "docs": "vuepress dev ./docs",
+    "doc:dev": "docfree dev docs",
+    "doc:build": "docfree build docs"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -128,6 +130,7 @@
     "camelcase": "^5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
     "css-loader": "3.4.2",
+    "docfree": "^0.5.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
     "eslint": "^6.6.0",
