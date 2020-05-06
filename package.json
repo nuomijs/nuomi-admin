@@ -7,7 +7,6 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "docs": "vuepress dev ./docs",
     "doc:dev": "docfree dev docs",
     "doc:build": "docfree build docs"
   },
